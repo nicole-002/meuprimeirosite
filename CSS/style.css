@@ -1,5 +1,20 @@
 body{
-    background-color: antiquewhite;
-    font-weight: 400;
-    color: purple; ;
+   background-color: rgb(45, 255, 108);
+}
+
+header{ 
+    background-color: rgb(255, 163, 240);
+}
+
+/*fundo do logo*/
+.logo{
+    background-color: rgb(28, 255, 175);
+}
+
+nav{
+    background-color: rgb(176, 58, 249);
+}
+
+main{
+    background-color: rgb(248, 215, 80);
 }
