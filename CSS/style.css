@@ -2,13 +2,13 @@ body{
    background-color: rgb(48, 52, 2);
 }
 
-header{ 
+.header{ 
     background-color: rgb(255, 163, 240);
     padding: 3%;
 }
 
 /*fundo do logo*/
-.logo{
+logo{
     background-color: rgb(28, 255, 175);
 }
 
