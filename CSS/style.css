@@ -1,5 +1,6 @@
 body{
    background-color: rgb(48, 52, 2);
+   font-family: "Playfair Display", serif;
 }
 
 .cabecalho{ 
@@ -30,4 +31,45 @@ section{
 .rodape{
     background-color: rgb(255, 166, 0);
     padding: 3%;
+}
+
+.titulos{
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+ul li{
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+td,th{
+    border: 5px dashed#29eded;
+    padding: 1.5%;
+}
+
+/*linhas cor sim,cor nn*/
+tr:nth-child(even) {
+    background-color: #fac8eb
 }
