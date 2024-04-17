@@ -2,13 +2,13 @@ body{
    background-color: rgb(48, 52, 2);
 }
 
-.header{ 
+.cabecalho{ 
     background-color: rgb(255, 163, 240);
     padding: 3%;
 }
 
 /*fundo do logo*/
-logo{
+.logo{
     background-color: rgb(28, 255, 175);
 }
 
@@ -27,7 +27,7 @@ section{
     background-color: rgb(255, 13, 130);
 }
 
-footer{
+.rodape{
     background-color: rgb(255, 166, 0);
     padding: 3%;
 }
