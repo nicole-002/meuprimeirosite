@@ -1,48 +1,61 @@
 body{
-   background-color: rgb(48, 52, 2);
-   font-family: "Playfair Display", serif;
+    background-image: url("../img/background\ body\ 3.webp");
+    background-repeat: repeat; 
+    background-size: 100%;  
+    background-color: black; 
+    font-family: "Playfair Display", serif;
 }
 
-.cabecalho{ 
-    background-color: rgb(255, 163, 240);
+.cabecalho{     
+    background-image: url("../img/background\ body\ 2.jpg");
     padding: 3%;
 }
 
 /*fundo do logo*/
-.logo{
-    background-color: rgb(28, 255, 175);
+.logo{       
+    background-color: rgba(0, 0, 0, 0.959);     
 }
 
-
 nav{
-    background-color: rgb(176, 58, 249);
+    background-color: rgb(248, 255, 157);
+}
+
+section{
+    background-color: rgba(24, 23, 23, 0.849);
 }
 
 main{
-    background-color: rgb(248, 215, 80);
+    color: white;
+    line-height: normal;    
+    background-color: rgba(12, 11, 7, 0.781);    
     width: 80%;
     margin-right: auto;
     margin-left: auto;
 }
 
 section{
-    background-color: rgb(255, 13, 130);
+    background-color: rgba(24, 23, 23, 0.658);
 }
 
 .rodape{
-    background-color: rgb(255, 166, 0);
+    color: rgb(0, 0, 0); 
+    text-align: right;    
+    text-shadow: 8px 8px 18px black;   
+    background-color: rgb(248, 255, 157);
     padding: 3%;
 }
 
 .titulos{
     line-height: 3;
     text-align: center;
-    font-weight: bold;
+    font-weight: bold; 
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;   
 }
 
 p{
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: 1.2em;         
 }
 
 ul li{
@@ -56,21 +69,58 @@ h1{
 h2{
     font-size: 1.5em;
 }
+h3{
+    font-size: 1.4em;
+    text-align: center;
+}
 
 table{
+    border: 1px ;
     border-collapse: collapse;
+    border-style: outset;
     width: 80%;
     font-size: 1.2em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
 }
+
 td,th{
-    border: 5px dashed#29eded;
+    border: 5px outset#ffffff;
     padding: 1.5%;
 }
 
 /*linhas cor sim,cor nn*/
 tr:nth-child(even) {
-    background-color: #fac8eb
+    background-color: #3a3939d5
 }
+
+.chaves{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 25px;
+}
+
+figure{
+    text-align: center;
+ }
+ 
+ legend{
+     margin-top:  0.6%;
+ }
+ 
+ .imgmeio{
+     width: 100%;
+ }
+  .imggaleria{
+     width: 90%;
+ } 
+ 
+ .linha{
+     display: flex;
+     flex-flow: row wrap;
+ }
+ 
+ .col-3{
+     width: 25%;
+ }
