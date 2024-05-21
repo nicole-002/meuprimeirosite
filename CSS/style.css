@@ -142,3 +142,8 @@ figure{
  a:hover{
     color: rgb(189, 23, 114);
  }
+
+ .menu{
+    justify-content: space-around;
+    display: flex;
+ }
