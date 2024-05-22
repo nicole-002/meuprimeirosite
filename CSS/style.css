@@ -54,6 +54,9 @@ section{
 }
 
 p{
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
     line-height: 1.5;
     font-size: 1.2em;         
 }
@@ -71,6 +74,7 @@ h2{
 }
 h3{
     font-size: 1.4em;
+    margin-bottom: 1%;
     text-align: center;
 }
 h4{
@@ -106,7 +110,7 @@ figure{
  }
  
  legend{
-     margin-top:  0.6%;
+    margin-left: 1%;
  }
  
   .imgelenco{
@@ -128,7 +132,6 @@ figure{
 
  .col-3 p{
     font-size: 1rem;
-    text-align: center;
  }
  
  .abibliografia{
@@ -143,7 +146,7 @@ figure{
     color: rgb(189, 23, 114);
  }
 
- .menu{
-    justify-content: space-around;
-    display: flex;
+ .imgSpinoff{
+    float: left;
+    margin-right: 1%;
  }
