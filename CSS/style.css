@@ -124,61 +124,53 @@ tr:nth-child(even) {
 
 
 
+.abibliografia{
+    color: white;
+}
+
+a{
+    color:rgb(4, 14, 43);
+}
+
+a:hover{
+    color: rgb(189, 23, 114);
+}
+
+.imgSpinoff{
+    width: 25%;
+    float: left;
+    margin-right: 1%;
+}
+
 figure{
     text-align: center;
- }
+}
  
- legend{
+legend{
     margin-left: 1%;
- }
+}
  
-  .imgelenco{
-     width: 90%;
-     margin-left: 1%;
-     margin-right: 1%;
- } 
+.imgelenco{
+    width: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+} 
  
- .linha{
-     display: flex;
-     flex-flow: row wrap;
-     margin-left: auto;
-     margin-right: auto;
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
  }
  
  .col-3{
-     width: 25%;
+    width: 25%;
  }
 
  .col-3 p{
     font-size: 1rem;
  }
- 
- .abibliografia{
-    color: white;
- }
- 
- a{
-    color:rgb(4, 14, 43);
- }
- 
- a:hover{
-    color: rgb(189, 23, 114);
- }
 
- .imgSpinoff{
-    width: 25%;
-    float: left;
-    margin-right: 1%;
- }
-
- @media screen and (min-width:601px){
-
-    header{
-      flex-direction: row;
-    }
-
-    .menu{
-        list-style: none;
-    }
-            
-}  
+.cllpc{
+    
+} 
