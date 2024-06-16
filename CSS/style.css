@@ -13,7 +13,12 @@ body{
 
 /*fundo do logo*/
 .logo{       
-    background-color: rgba(0, 0, 0, 0.959);     
+    background-color: rgba(0, 0, 0, 0.959);       
+}
+
+.imglogo{
+    margin-left: 1%;
+    width: 15%;
 }
 
 nav{
@@ -169,5 +174,8 @@ a:hover{
     }
     .imgSpinoff{
         width: 100%;   
+    }
+    .imglogo{
+        width: 35%;
     }
 }
