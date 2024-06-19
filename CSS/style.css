@@ -4,6 +4,7 @@ body{
     background-size: 100%;  
     background-color: black; 
     font-family: "Playfair Display", serif;
+    margin-left: 1%;
 }
 
 .cabecalho{     
@@ -168,6 +169,21 @@ a:hover{
     margin-right: 1%;
 }
 
+.cards{
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(33.33% - 20px); /* 3 cards por linha, os 20px é o espaço de margem entre eles */
+    margin-bottom: 20px;
+    background-color: rgb(65, 105, 225, 0.4);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
 
 @media screen and (max-width:900px) {
     .col-3{
@@ -177,7 +193,10 @@ a:hover{
         width: 50%;   
     }
     .imglogo{
-        width: 45%;
+        width: 35%;
+    }
+    .card{
+        width: calc(50% - 10px);
     }
 }
 
@@ -190,5 +209,8 @@ a:hover{
     }
     .imglogo{
         width: 35%;
+    }
+    .card{
+        width: calc(100% - 10px);
     }
 }
