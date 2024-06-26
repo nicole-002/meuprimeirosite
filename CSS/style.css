@@ -174,7 +174,7 @@ legend{
 
 .col-4{    
     width: 33%;  
-    margin-bottom: 1%;  
+    margin-bottom: 2%;  
 }
 
 .container{
@@ -185,13 +185,18 @@ legend{
     width: 98%;
 }
 
-.pimgcena{
+.pimgcena, .pimgcena2{
     position: absolute;
-    top: 80%;
+    top: 75%;
     width: 100%;
     text-align: center;
-    font-size: 18px;
-    color: rgb(250, 250, 250);
+    font-size: 1.2vw;
+    color: rgb(250, 250, 250);        
+    text-shadow: 8px 8px 18px black;    
+}
+
+.pimgcena2{
+    top: 85%;
 }
 
 .abibliografia{
@@ -243,6 +248,7 @@ a:hover{
     .card{
         width: calc(50% - 10px);
     }
+
 }
 
 @media screen and (max-width:600px) {
@@ -257,5 +263,11 @@ a:hover{
     }
     .card{
         width: calc(100% - 10px);
+    }
+    .col-4{
+        width: 100%;
+    }
+    .pimgcena, .pimgcena2{
+        font-size: 20px;
     }
 }
