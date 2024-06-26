@@ -22,16 +22,18 @@
             <img class="imglogo" src="img/Logo gossip girl.avif" width="15%">                                
         </div>   
 
-        <nav> <!--Menu-->
-            <ul class="menu">
-                <li> <a href="#historia">História</a></li>
-                <li> <a href="#personagens">Personagens</a></li>
-                <li> <a href="#temporadas">Temporadas</a></li>
-                <li> <a href="#premios">Premios</a></li>
-                <li> <a href="#melhoreseps">Melhores Episódios</a></li>
-                <li> <a href="#curiosidades">Curiosidades</a></li>
-                <li> <a href="#trilhasonora">Trilha Sonora</a></li>
-            </ul>           
+        <nav id="menu"> <!--Menu-->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <ul class="menu">
+                    <li> <a href="#historia" onclick="document.getElementById('menu-toggle').click()">História</a></li>
+                    <li> <a href="#personagens"  onclick="document.getElementById('menu-toggle').click()">Personagens</a></li>
+                    <li> <a href="#temporadas"  onclick="document.getElementById('menu-toggle').click()">Temporadas</a></li>
+                    <li> <a href="#premios"  onclick="document.getElementById('menu-toggle').click()">Premios</a></li>
+                    <li> <a href="#melhoreseps"  onclick="document.getElementById('menu-toggle').click()">Melhores</a></li>
+                    <li> <a href="#curiosidades"  onclick="document.getElementById('menu-toggle').click()">Curiosidades</a></li>
+                    <li> <a href="#trilhasonora"  onclick="document.getElementById('menu-toggle').click()">Trilha Sonora</a></li>
+                </ul>           
         </nav>
     </header>
 

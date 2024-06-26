@@ -6,9 +6,24 @@ body{
     font-family: "Playfair Display", serif;    
 }
 
+header{  
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .cabecalho{     
     background-image: url("../img/background\ body\ 2.jpg");
-    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
 }
 
 /*fundo do logo*/
@@ -18,8 +33,27 @@ body{
 
 .imglogo{
     margin-left: 1%;
-    width: 15%;
+    width: 35%;
 }
+
+nav,ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+
 
 nav{
     background-color: rgb(248, 255, 157);
@@ -235,6 +269,17 @@ a:hover{
     border-radius: 20px;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer
+}
+
 @media screen and (max-width:900px) {
     .col-3{
         width: 33.33%;        
@@ -249,6 +294,42 @@ a:hover{
         width: calc(50% - 10px);
     }
 
+
+    .menu-icon {
+        display: block;
+        padding-right: 10px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(65, 105, 225, 0.8 );
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1;
+        padding: 0;
+    }
+
+    #menu-toggle:checked + .menu-icon + ul {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 15px 0;
+    }
+
+    nav ul li label {
+        /* width: 100%; */
+        display: block;
+    }
+
 }
 
 @media screen and (max-width:600px) {
@@ -259,7 +340,7 @@ a:hover{
         width: 100%;   
     }
     .imglogo{
-        width: 35%;
+        width: 80%;
     }
     .card{
         width: calc(100% - 10px);
