@@ -6,6 +6,10 @@ body{
     font-family: "Playfair Display", serif;    
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{  
     padding: 3%;
     display: flex;
@@ -24,6 +28,20 @@ header{
     width: 100%;
     z-index: 1000;
     box-sizing: border-box;
+}
+
+section:target {
+    scroll-margin-top: 85px; /* Ajuste conforme a altura do seu menu */
+}
+
+#historia{
+    margin-top: 200px;
+    padding: 20px;
+}
+
+#personagens{
+        margin-top: 0px; /* Ajusta o espaço no topo para que o conteúdo não fique embaixo do menu */
+        padding: 20px;
 }
 
 /*fundo do logo*/
