@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GOSSIP GIRL</title>
+    <link rel="stylesheet" href="CSS/reset.css"> 
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="shotcut icon" href="img/favicon.jpg" type="image/x-icon">
+</head>
+
+
+<body>
+    
+    <header class="cabecalho">
+        <div class="logo">
+            <img class="imglogo" src="img/Logo gossip girl.avif" width="15%">                                
+        </div>   
+        
+        <div id="menu"></div>
+        <nav id="menu"> <!--Menu-->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <ul class="menu">
+                    <li> <a href="index.html" onclick="document.getElementById('menu-toggle').click()">Home</a></li>
+                </ul>           
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="titulos">Tudo sobre Gossip Girl</h1>
+
+        <section id="historia"> <!--seção 1-->
+            <h2 class="titulos">História</h2>
+            <h3>Surgimento</h3>        
+            <p> 
+                Gossip Girl é uma série de televisão norte-americana de drama adolescente, baseada na série literária homônima da escritora Cecily von Ziegesar. Criada por Josh Schwartz e Stephanie Savage, a série foi originalmente transmitida nos Estados Unidos pela rede de televisão The CW de 19 de setembro de 2007 e 17 de dezembro de 2012, totalizando seis temporadas e 121 episódios. No Brasil, Gossip Girl teve sua estreia em 8 de novembro de 2007 no canal de televisão por assinatura Warner Channel, onde foi exibida até abril de 2010. Em seguida, foi transmitida pelo SBT e pelo Glitz*. Em Portugal, a série foi ao ar no extinto Canal Sony e está no ar no canal Biggs. <a class="abibliografia" href="https://pt.wikipedia.org/wiki/Gossip_Girl_(teless%C3%A9rie)" target="_blank">Fonte: Wikipedia.org</a>
+            </p>
+            <h3>Enredo</h3>
+            <p><!--id antes para ir para o lugar certo por causa do menu que cobre-->
+                A série, sobre jovens estudantes das escolas de elite no Upper East Side de Manhattan em Nova York, segue quando Serena van der Woodsen (Blake Lively) retorna à cidade após ter ficado seis meses fora em um internato e se mantido fora do alcance de amigos e conhecidos. Os acontecimentos e histórias de cada personagem são narrados em um site por uma blogueira anônima (voz por Kristen Bell), que atende pelo pseudônimo "Gossip Girl" (Garota Fofoqueira, em português). Gossip Girl narra os escândalos de Serena e seus amigos desde a oitava série de Serena, quando a garota ficou com seu vestido branco todo molhado dentro de um avião na viagem de excursão da escola. Desde então, Serena virou a vitima preferida de Gossip Girl. Magoada pelo fato de Serena não ter dado nenhuma noticia e ainda por ter passado por gravíssimos problemas familiares sozinha, Blair Waldorf (Leighton Meester) começa excluindo socialmente a melhor amiga e mantendo distância de Serena, como punição pela total perda de contato durante sua ausência. <a class="abibliografia" href="https://pt.wikipedia.org/wiki/Gossip_Girl_(teless%C3%A9rie)" target="_blank">Fonte: Wikipedia.org</a>
+            </p> 
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+
+            <div>
+                <form autocomplete="on">
+                    <label for="nome">Nome</label>
+                    <input type="text" value="nome completo">
+
+                    <label for="I"></label>
+                    <input type="number" value="idade">
+
+                    <input type="text" autocomplete="on" value="e-mail">
+
+                    <input type="submit">
+
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p class="feitopor">Desenvolvido por: Nicole</p>
+        <p>You know you love me, XOXO, Gossip Girl</p>
+        
+    </footer>    
+
+</body>
+</html>
