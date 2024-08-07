@@ -2,7 +2,7 @@ body{
     background-image: url("../img/background\ body\ 3.webp");
     background-repeat: repeat; 
     background-size: 100%;  
-    background-color: black; 
+    
     font-family: "Playfair Display", serif;    
 }
 
@@ -47,7 +47,7 @@ section:target {
 /*fundo do logo*/
 .logo{       
     text-align: center;
-    background-color: rgba(0, 0, 0, 0);       
+    background-color: rgba(13, 14, 13, 0);       
 }
 
 .imglogo{    
@@ -296,7 +296,7 @@ a:hover{
 .menu-icon{
     display: none;
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer
 }
 
