@@ -52,16 +52,52 @@
             <h2>Contato</h2>
 
             <div>
-                <form autocomplete="on">
-                    <label for="nome">Nome</label>
-                    <input type="text" value="nome completo">
+                <form>
+                    <div class="inf-text">
+                        <label for="nome">Nome</label><br>
+                        <input type="text" id="nome" name="id" autocomplete="on" value="nome completo"><br>
+                        
+                        <label for="idade">Idade</label><br>
+                        <input type="number" id="idade" name="idade" autocomplete="on" value="idade"><br>
+                        
+                        <label for="nasc">Data de nascimento</label><br>
+                        <input type="date" id="nasc" name="nasc"><br>
+                        
+                        <label for="email">E-mail</label><br>
+                        <input type="email" id="email" name="email" autocomplete="on" value="exemple@gmail.com"><br>
+                        
+                        <label for="tel">Telefone</label><br>
+                        <input type="tel" id="tel" name="tel" autocomplete="on" value="(XX) XXXX-XXXX"><br>
+                    </div>
 
-                    <label for="I"></label>
-                    <input type="number" value="idade">
+                    <div>
+                        <h2>Temporada Favorita</h2>
+                        <input type="radio" id="html" name="fav_temp" value="HTML">
+                        <label for="html"><Temp class="1"></Temp></label><br>
 
-                    <input type="text" autocomplete="on" value="e-mail">
+                        <input type="radio" id="css" name="fav_temp" value="CSS">
+                        <label for="css"><Temp class="2"></Temp></label><br>
+                        
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="javascript">Temp.3</label>
+                    </div>
+                    
+                    <div class=opcoes1>
+                        <label for="country">Temporada favorita</label>
+                        <select id="country" name="opcoes11">
+                            <option >Temporada 1</option>
+                            <option >Temporada 2</option>
+                            <option >Temporada 3</option>
+                            <option >Temporada 4</option>
+                            <option >Temporada 5</option>
+                            <option >Temporada 6</option>
+                        </select>
+                    </div>            
 
+                    <label for=""></label>
                     <input type="submit">
+
+
 
 
                 </form>
